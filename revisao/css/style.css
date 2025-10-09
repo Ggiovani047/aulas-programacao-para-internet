@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #1C1C1E;
+    color: #F5F5F7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background: #2A2A2C;
+    width: 30%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: limegreen;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: greenyellow;
+}
+
+label[for="chute"]{
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #F5F5F7;
+}
+
+.btn{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.btn-enviar {
+    background-color: limegreen;
+    margin-top: 10px;
+    color: #F5F5F7;
+}
+
+.btn-limpar {
+    background-color: #C9C9CC;
+    margin-top: 20px;
+    
+}
