@@ -86,5 +86,25 @@ input{
 .btn-limpar {
     background-color: #C9C9CC;
     margin-top: 20px;
-    
+
+}
+
+@media (max-width: 1020px) {
+    form{
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    form {
+        width: 90%;
+    }
+}
+
+.ganhou {
+    color: green;
+}
+
+.perdeu {
+    color: red;
 }
